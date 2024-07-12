@@ -5,13 +5,20 @@ int main(){
     int a=10;
    ptr=&a;
    int **ptr1=&ptr;
-   **ptr1=100;
-   cout<<*ptr1<<endl;
-   cout<<**ptr1<<endl;
+   *ptr+=1;
+   cout<<*ptr<<endl;
+   cout<<a<<endl;
+   cout<<*ptr<<endl;
    cout<<&a<<endl;
    cout<<&ptr1<<endl;
    cout<<&ptr<<endl;
    
     cout<<*ptr<<endl;
-    cout<<ptr;
+
+
+   
+   
+   
+    
+    
 }
